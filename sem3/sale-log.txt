@@ -1,0 +1,18 @@
+2018-maj-20 20:07:17, Exception was thrown: The IDTEis not found
+integration.ItemNotFoundException: The IDTEis not found
+	at integration.ItemRegistry.findItem(ItemRegistry.java:39)
+	at controller.Controller.enterItemIDAndQuantity(Controller.java:91)
+	at view.View.sampleExecution(View.java:38)
+	at startup.Main.main(Main.java:29)
+2018-maj-20 20:07:17, Exception was thrown: The money you paid50is not enough80kr
+model.InvalidPaymentException: The money you paid50is not enough80kr
+	at model.Sale.calculateChange(Sale.java:140)
+	at controller.Controller.enterPaidCash(Controller.java:110)
+	at view.View.sampleExecution(View.java:45)
+	at startup.Main.main(Main.java:29)
+2018-maj-20 20:07:17, Exception was thrown: The IDKhjrfis not found
+integration.ItemNotFoundException: The IDKhjrfis not found
+	at integration.ItemRegistry.findItem(ItemRegistry.java:39)
+	at controller.Controller.enterItemIDAndQuantity(Controller.java:91)
+	at view.View.sampleExecution(View.java:58)
+	at startup.Main.main(Main.java:29)
